@@ -1,0 +1,237 @@
+header {
+    background-image: url('images/image1.jpeg');
+    background-position: center;
+    font-size: 30px;
+}
+
+header h1 {
+    color:gold;
+    font-size: 80px;
+    text-align: center;
+}
+
+.breadcrumb li {
+    display: inline;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color:rgb(238, 122, 7);
+    font-size: 50px;
+}
+
+.breadcrumb li+li::before {
+    content: ">";
+    color:rgb(238, 7, 30);
+}
+
+p {
+    font-size: 30px;
+}
+
+.colors {
+    background-color:aquamarine;
+    padding: 10px;
+    height: 200px;
+}
+
+.colors li {
+    display: inline-block;
+    height: 83%;
+    width: 22%;
+    margin: 20px;
+    box-sizing: border-box
+}
+
+.color1 {
+    background-color:azure;
+    height: 100%;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.color2 {
+    background-color:greenyellow;
+    height: 100%;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.color3 {
+    background-color:darkblue;
+    height: 100%;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.color4 {
+    background-color:burlywood;
+    height: 100%;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.font1 {
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Roboto';
+}
+
+.font2 {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Roboto';
+}
+
+.font3 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto';
+}
+
+.font4 {
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Roboto';
+}
+
+.background1 {
+    background-color:bisque;
+}
+
+.background2 {
+    background-color:ivory;
+}
+
+.background3 {
+    background-color:paleturquoise;
+}
+
+.background4 {
+    background-color:lightpink;
+}
+
+footer {
+    background-image: url('images/image2.JPG');
+    background-size: cover;
+    background-position: center 30%;
+    height: 700px;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 100px;
+    color:rgba(229, 244, 12, 0.7);
+    text-align: center;
+}
+.text-style1 {
+    font-family: 'Underdog';
+    font-size: 30px;
+}
+
+.text-style2 {
+    font-family: 'Roboto';
+    font-size: 30px;
+}
+
+.text-style3 {
+    font-family: 'Bungee Tint';
+    font-size: 30px;
+}
+
+.text-style4 {
+    font-family: 'Codystar';
+    font-size: 30px;
+}
+
+.buttons li {
+    display: inline-block;
+    height: 100px;
+    width: 20%;
+    margin: 10px;
+    text-align: center;
+}
+
+.button1 {
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.button2 {
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color:rgb(15, 44, 175);
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.button2:hover {
+    background-color:rgb(96, 80, 171);
+}
+
+.button2:active {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    box-shadow: 0px 0px;
+    background-color:rgb(163, 214, 247);
+}
+
+.button3 {
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 0 5px;
+    background-color:rgb(238, 122, 7);
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.button3:hover {
+    background-color:brown;
+    box-shadow: 0px 5px;
+}
+
+.button3:active {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    box-shadow: 0px 0px;
+    background-color:cadetblue;
+}
+
+button3:visited {
+    background-color:rgb(67, 30, 10)
+}
+
+.button4 {
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 0 5px;
+    background-color:gold;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.button4:hover {
+    background-color:rgb(153, 158, 15);
+    box-shadow: 0px 10px;
+}
+
+.button4:active {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    box-shadow: 0px 0px;
+    background-color:rgb(235, 243, 205);
+}
