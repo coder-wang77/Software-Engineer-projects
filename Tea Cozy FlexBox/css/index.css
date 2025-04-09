@@ -1,0 +1,147 @@
+* {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.mainheader {
+    margin-right: 20px;
+    font-size: 50px;
+}
+
+nav {
+    text-align: right;
+    text-decoration: underline;
+
+}
+
+.block1 {
+    background-image: url("../images/background.jpg");
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    text-align: center;
+    background-size: cover;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+
+}
+
+.block1child {
+    background-color: black;
+    width: 100%
+}
+
+.centertext {
+    text-align: center;
+}
+
+.block2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.block2 .img1 {
+    background-image: url("../images/berryblitz.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
+.block2 .img2 {
+    background-image: url("../images/spiced-rum.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
+.block2 .img3 {
+    background-image: url("../images/donut.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
+.block2 .img4 {
+    background-image: url("../images/myrtle-ave.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
+.block2 .img5 {
+    background-image: url("../images/bedford-bizarre.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+
+}
+
+.block3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 500px;
+    background-image: url("../images/locations-background.jpg");
+    background-size: cover;
+    background-position: center;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+.block3item {
+    background-color:black;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.block3item span {
+    display: block;
+    margin: 30px 0;
+}
+
+.location-title {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.block4 {
+    display: flex;
+    width: 1200px;
+    height: 200px;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.block4item {
+    text-align: center;
+}
+
+.footer {
+    text-align: left;
+    margin-left: 20px;
+}
